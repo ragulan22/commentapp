@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  background-color: #1f3a93;
+}
+body {
+  background-color: silver;
+  margin: 10px auto;
+  height: 900px;
+  width: 800px;
+}
+#header {
+  background: #52b3d9;
+  height: 200px;
+  width: 100%;
+}
+#nav {
+  background: #500bcf;
+  height: 30px;
+  width: 100%;
+}
+#container {
+  background: #775ef7;
+  height: 640px;
+  width: 100%;
+}
+#footer {
+  background: #be27f0;
+  height: 30px;
+  width: 100%;
+}
+#lftbx {
+  height: 100%;
+  float: left;
+  width: 25%;
+  background: #604ac0;
+}
+#rtbx {
+  height: 100%;
+  float: right;
+  width: 75%;
+  background: #6b1592;
+}
+#navul li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 30px;
+}
+#navul li a{
+  text-decoration: none;
+  color: white;
+}
+#navul li a:hover ,lful li a:hover{
+    text-decoration: none;
+    color: rgb(81, 74, 172);
+  }
+#lful li{
+    list-style-type: none;
+    padding-left: 15px;
+    line-height: 30px;
+    padding-top: 5px;
+  padding-right: 5px;
+}
+#lful li a{
+    text-decoration: none;
+    color: black; 
+}
+#logotext{
+width: 25%;
+height:100%;
+float: left;
+background-color: rgba(106, 20, 218, 0.582);
+}
+#logo{
+width: 75%;
+height: 100%;
+float: right;
+background-color: rgba(106, 20, 218, 0.5);
+}
+#logotext h1{
+    color: rgb(7, 7, 7);
+    font-family: book-antiqua;
+}
+#logo img{
+    height: 90%;
+    width: 95%;
+    padding-top:10px;
+    padding-bottom: 10px;
+
+}
+#user_login{
+    min-height: 200px;
+    width: 500px;
+    margin-left:150px;
+    border-radius: 10px;
+    border:1px solid;
+}
+#user_login legend{
+    margin-left:150px;
+}
+#user_table td{
+padding: 10px;
+}
+#user_table {
+  margin:50px;
+}
+#user_table input[type="submit"], #user_table input[type="reset"]{
+  width:100px;
+  height:30px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: blue;
+}
+.error{
+  color: red;
+}
+.correct{
+  color: green;
+}
+#user_table textarea{
+  resize: none
+}
